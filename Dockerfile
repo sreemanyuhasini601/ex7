@@ -1,4 +1,4 @@
-#copy current directory into the container
+#copy current directory into the container at /app
 COPY ..
 #coplie the java program
 RUN javac SampleName.java
